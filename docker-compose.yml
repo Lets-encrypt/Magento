@@ -1,7 +1,7 @@
 version: "3"
 services:
   magento:
-    image: "malexcheng/magento2"
+    image: "alexcheng/magento2:latest"
     ports:
       - "${MAGENTO_HTTP_PORT}:80"
     volumes:
