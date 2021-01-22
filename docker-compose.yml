@@ -8,7 +8,7 @@ services:
       - "${APP_CODE_PATH_HOST}:/var/www/html/app/design/frontend/mytheme/default"
   mysql:
     build:
-      context: "./mysql"
+      context: "mysql"
       args:
         - "MYSQL_VERSION=${MYSQL_VERSION}"
     environment:
